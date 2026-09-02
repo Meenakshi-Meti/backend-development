@@ -10,4 +10,10 @@ const math = require("./math");
 console.log("Addition :", math.add(10,5));
 console.log("Subtraction :", math.sub(10,5));
 console.log("Multiplication :",math.multiply(10,5));
+<<<<<<< HEAD
 >>>>>>> 6da32ea (Learn Node.js Modules and exports)
+=======
+
+
+
+>>>>>>> f8b7632 (Learn Node.js Modules and Exports)
