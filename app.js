@@ -113,14 +113,3 @@ console.log("Original:",password);
 console.log("Hash:",hash);
 
 
-
-
-
-
-
-
-
-
-
-
->>>>>>> f8b7632 (Learn Node.js Modules and Exports)
