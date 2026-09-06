@@ -49,6 +49,30 @@ const server = http.createServer((req, res) => {
         }));
     }
 
+    // GET /contact
+else if (req.method === "GET" && req.url === "/contact") {
+
+    res.writeHead(200);
+
+    res.end(JSON.stringify({
+        success: true,
+        message: "Contact page",
+        email: "example@gmail.com"
+    }));
+}
+
+// GET /status
+else if (req.method === "GET" && req.url === "/status") {
+
+    res.writeHead(200);
+
+    res.end(JSON.stringify({
+        success: true,
+        server: "running",
+        status: "OK"
+    }));
+}
+
     // Unknown route
     else {
 
